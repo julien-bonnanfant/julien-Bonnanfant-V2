@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="955b97c5-a847-4b3c-901a-8d8130dc756a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssh-setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssh-setup.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="621">
@@ -44,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ssh-setup.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="862">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
+              <caret line="212" selection-start-line="212" selection-end-line="212" />
             </state>
           </provider>
         </entry>
@@ -143,8 +144,9 @@
         <option value="$USER_HOME$/Downloads/slides-s.html" />
         <option value="$USER_HOME$/Downloads/slides-s (1).html" />
         <option value="$USER_HOME$/Downloads/slides-s (2).html" />
-        <option value="$PROJECT_DIR$/ssh-setup.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$USER_HOME$/Downloads/slides-s (3).html" />
+        <option value="$PROJECT_DIR$/ssh-setup.html" />
       </list>
     </option>
   </component>
@@ -228,12 +230,12 @@
       <workItem from="1558884739505" duration="6000" />
       <workItem from="1558952031360" duration="2027000" />
       <workItem from="1559236991627" duration="4128000" />
-      <workItem from="1559248574502" duration="1589000" />
+      <workItem from="1559248574502" duration="1907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24682000" />
+    <option name="totallyTimeSpent" value="25000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -430,12 +432,8 @@
     <entry file="file://$USER_HOME$/Downloads/slides-s (2).html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssh-setup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/Downloads/slides-s (3).html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -453,6 +451,13 @@
             <element signature="n#style#0;n#div#1;n#div#6;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh-setup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="212" selection-start-line="212" selection-end-line="212" />
         </state>
       </provider>
     </entry>
