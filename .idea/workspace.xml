@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="757" column="403" selection-start-line="757" selection-start-column="403" selection-end-line="757" selection-end-column="403" />
+            <state relative-caret-position="617">
+              <caret line="801" column="38" lean-forward="true" selection-start-line="801" selection-start-column="38" selection-end-line="801" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,6 +35,35 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#6;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="14596" column="23" selection-start-line="14596" selection-start-column="23" selection-end-line="14596" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7208">
+              <caret line="3797" selection-start-line="3797" selection-end-line="3798" />
+              <folding>
+                <element signature="e#45527#45730#2" expanded="true" />
+                <element signature="e#45865#46017#2" expanded="true" />
+                <element signature="e#46181#46330#2" expanded="true" />
+                <element signature="e#46774#46940#1" expanded="true" />
+                <element signature="e#57366#57609#2" expanded="true" />
+                <element signature="e#58618#58867#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,7 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#007bff</find>
       <find>load</find>
       <find>loade</find>
       <find>get mor</find>
@@ -74,6 +102,7 @@
       <find>min-height: 150px</find>
       <find>.rd-navbar-main</find>
       <find>.rd-navbar-brand img</find>
+      <find>.modalContent__content</find>
     </findStrings>
     <replaceStrings>
       <replace>#803232</replace>
@@ -91,8 +120,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/loader.css" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -116,6 +145,11 @@
             <path>
               <item name="site-julien-bonnanfant-V2" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-julien-bonnanfant-V2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-julien-bonnanfant-V2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-julien-bonnanfant-V2" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,12 +199,12 @@
       <workItem from="1558803003809" duration="1824000" />
       <workItem from="1558884739505" duration="6000" />
       <workItem from="1558952031360" duration="2027000" />
-      <workItem from="1559236991627" duration="1119000" />
+      <workItem from="1559236991627" duration="2522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20084000" />
+    <option name="totallyTimeSpent" value="21487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -327,10 +361,17 @@
     <entry file="file://$PROJECT_DIR$/images/parallax-1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="14596" column="23" selection-start-line="14596" selection-start-column="23" selection-end-line="14596" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79737">
-          <caret line="3797" column="1" selection-start-line="3797" selection-start-column="1" selection-end-line="3797" selection-end-column="1" />
+        <state relative-caret-position="7208">
+          <caret line="3797" selection-start-line="3797" selection-end-line="3798" />
           <folding>
             <element signature="e#45527#45730#2" expanded="true" />
             <element signature="e#45865#46017#2" expanded="true" />
@@ -342,17 +383,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="14596" column="23" selection-start-line="14596" selection-start-column="23" selection-end-line="14596" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="757" column="403" selection-start-line="757" selection-start-column="403" selection-end-line="757" selection-end-column="403" />
+        <state relative-caret-position="617">
+          <caret line="801" column="38" lean-forward="true" selection-start-line="801" selection-start-column="38" selection-end-line="801" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -360,6 +394,9 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#6;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
