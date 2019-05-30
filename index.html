@@ -74,7 +74,7 @@
             <div  class="container title-header">
               <h1 class="hinge">Julien Bonnanfant</h1>
               <p>Etudiant en Informatique à Lyon Ynov campus, en recherche d'alternance et de stage dans la cyber-sécurité</p>
-              <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal" >Contactez-moi</a>
+              <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal" id="open-popup" onclick="showMailingPopUp(); return false;" >Contactez-moi</a>
               <a class="button button-primary button-ujarak"data-anijs="if: click, do: hinge animated, to: .hinge, .container, .header" href="#modalCta"  >Don't click here</a>
             </div>
           </div>
@@ -739,6 +739,23 @@
 
     <!-- Include to use $addClass, $toggleClass or $removeClass -->
     <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script>
+      function showMailingPopUp() {
+        require(
+                ["mojo/signup-forms/Loader"],
+                function(L) {
+                  L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"YOUR_UUID","lid":"YOUR_LID"})
+                }
+        );
+
+        document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+        document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+      }
+
+      document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+    </script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"bf74133d4f231ab6298ca6acb","lid":"b0facafa45","uniqueMethods":true}) })</script>
 
     <!-- The scrollreveal helper-->
     <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
