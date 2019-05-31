@@ -1,0 +1,5 @@
+[nice_code]RewriteEngine on
+RewriteCond %{HTTP_HOST} ^julienbonnanfant.space$
+RewriteRule ^(.*) http://www.julienbonnanfant.space/$1 [QSA,L,R=301][/nice_code]
+
+
