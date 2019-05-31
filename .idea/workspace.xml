@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="153" column="65" selection-start-line="153" selection-start-column="65" selection-end-line="153" selection-end-column="65" />
+            <state relative-caret-position="273">
+              <caret line="709" column="42" selection-start-line="709" selection-start-column="42" selection-end-line="709" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -40,10 +40,19 @@
                 <element signature="e#12244#15242#0" />
                 <element signature="e#15291#17964#0" />
                 <element signature="e#17989#18939#0" />
-                <element signature="e#23376#28678#0" />
                 <element signature="e#28901#41137#0" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bat/rd-mailform.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2267" />
           </provider>
         </entry>
       </file>
@@ -56,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="13639" column="19" selection-start-line="13639" selection-start-column="19" selection-end-line="13639" selection-end-column="19" />
+            <state relative-caret-position="241">
+              <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -68,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79737">
-              <caret line="3797" selection-start-line="3797" selection-end-line="3798" />
+            <state relative-caret-position="2561">
+              <caret line="132" column="14" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="14" />
               <folding>
                 <element signature="e#45527#45730#2" expanded="true" />
                 <element signature="e#45865#46017#2" expanded="true" />
@@ -93,10 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>projet</find>
-      <find>rd-navbar-brand img</find>
-      <find>max-height: 180px;</find>
-      <find>heading</find>
       <find>#fffff</find>
       <find>part</find>
       <find>shadow</find>
@@ -121,8 +126,12 @@
       <find>.rd-navbar-brand img</find>
       <find>.modalContent__content</find>
       <find>#apropos</find>
-      <find>#competence</find>
       <find>rd-navbar-pane</find>
+      <find>#competence</find>
+      <find>mce-EMAIL</find>
+      <find>font</find>
+      <find>font-f</find>
+      <find>h4</find>
     </findStrings>
     <replaceStrings>
       <replace>#803232</replace>
@@ -147,8 +156,8 @@
         <option value="$USER_HOME$/Downloads/slides-s (2).html" />
         <option value="$USER_HOME$/Downloads/slides-s (3).html" />
         <option value="$PROJECT_DIR$/ssh-setup.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -171,6 +180,11 @@
             <path>
               <item name="site-julien-bonnanfant-V2" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-julien-bonnanfant-V2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site-julien-bonnanfant-V2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site-julien-bonnanfant-V2" type="462c0819:PsiDirectoryNode" />
+              <item name="bat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="site-julien-bonnanfant-V2" type="b2602c69:ProjectViewProjectNode" />
@@ -233,12 +247,12 @@
       <workItem from="1558952031360" duration="2027000" />
       <workItem from="1559236991627" duration="4128000" />
       <workItem from="1559248574502" duration="2446000" />
-      <workItem from="1559253891918" duration="2494000" />
+      <workItem from="1559253891918" duration="7363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28033000" />
+    <option name="totallyTimeSpent" value="32902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -416,19 +430,9 @@
     <entry file="file://$USER_HOME$/Downloads/slides-s (3).html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/bat/rd-mailform.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79737">
-          <caret line="3797" selection-start-line="3797" selection-end-line="3798" />
-          <folding>
-            <element signature="e#45527#45730#2" expanded="true" />
-            <element signature="e#45865#46017#2" expanded="true" />
-            <element signature="e#46181#46330#2" expanded="true" />
-            <element signature="e#46774#46940#1" expanded="true" />
-            <element signature="e#57366#57609#2" expanded="true" />
-            <element signature="e#58618#58867#2" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-2267" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssh_setup/index.html">
@@ -438,17 +442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="13639" column="19" selection-start-line="13639" selection-start-column="19" selection-end-line="13639" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="153" column="65" selection-start-line="153" selection-start-column="65" selection-end-line="153" selection-end-column="65" />
+        <state relative-caret-position="273">
+          <caret line="709" column="42" selection-start-line="709" selection-start-column="42" selection-end-line="709" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -460,9 +457,33 @@
             <element signature="e#12244#15242#0" />
             <element signature="e#15291#17964#0" />
             <element signature="e#17989#18939#0" />
-            <element signature="e#23376#28678#0" />
             <element signature="e#28901#41137#0" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2561">
+          <caret line="132" column="14" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="14" />
+          <folding>
+            <element signature="e#45527#45730#2" expanded="true" />
+            <element signature="e#45865#46017#2" expanded="true" />
+            <element signature="e#46181#46330#2" expanded="true" />
+            <element signature="e#46774#46940#1" expanded="true" />
+            <element signature="e#57366#57609#2" expanded="true" />
+            <element signature="e#58618#58867#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
         </state>
       </provider>
     </entry>
