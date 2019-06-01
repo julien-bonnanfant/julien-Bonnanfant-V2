@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="130" column="117" selection-start-line="130" selection-start-column="117" selection-end-line="130" selection-end-column="117" />
+            <state relative-caret-position="17577">
+              <caret line="837" column="24" lean-forward="true" selection-start-line="837" selection-start-column="24" selection-end-line="837" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -37,7 +37,45 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#25191#25195#0" expanded="true" />
+                <element signature="e#25196#25203#0" expanded="true" />
+                <element signature="e#25221#25228#0" expanded="true" />
+                <element signature="e#25228#25232#0" expanded="true" />
+                <element signature="e#26270#26274#0" expanded="true" />
+                <element signature="e#26275#26282#0" expanded="true" />
+                <element signature="e#26300#26307#0" expanded="true" />
+                <element signature="e#26307#26311#0" expanded="true" />
+                <element signature="e#27372#27376#0" expanded="true" />
+                <element signature="e#27377#27384#0" expanded="true" />
+                <element signature="e#27402#27409#0" expanded="true" />
+                <element signature="e#27409#27413#0" expanded="true" />
+                <element signature="e#28469#28473#0" expanded="true" />
+                <element signature="e#28474#28481#0" expanded="true" />
+                <element signature="e#28499#28506#0" expanded="true" />
+                <element signature="e#28506#28510#0" expanded="true" />
+                <element signature="e#29573#29577#0" expanded="true" />
+                <element signature="e#29578#29585#0" expanded="true" />
+                <element signature="e#29603#29610#0" expanded="true" />
+                <element signature="e#29610#29614#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/robots.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sitemap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -165,6 +203,8 @@
         <option value="$USER_HOME$/Downloads/slides-s (4).html" />
         <option value="$PROJECT_DIR$/ssh_setup/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/article_mosaeek/index.html" />
+        <option value="$PROJECT_DIR$/robots.txt" />
       </list>
     </option>
   </component>
@@ -172,7 +212,7 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="834" />
+    <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -192,16 +232,6 @@
               <item name="site-julien-bonnanfant-V2" type="b2602c69:ProjectViewProjectNode" />
               <item name="site-julien-bonnanfant-V2" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-julien-bonnanfant-V2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-julien-bonnanfant-V2" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site-julien-bonnanfant-V2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site-julien-bonnanfant-V2" type="462c0819:PsiDirectoryNode" />
-              <item name="ssh_setup" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,12 +291,12 @@
       <workItem from="1559236991627" duration="4128000" />
       <workItem from="1559248574502" duration="2446000" />
       <workItem from="1559253891918" duration="9983000" />
-      <workItem from="1559311875745" duration="2633000" />
+      <workItem from="1559311875745" duration="3947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38155000" />
+    <option name="totallyTimeSpent" value="39469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -489,10 +519,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/article_mosaeek/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1246">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#article#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="130" column="117" selection-start-line="130" selection-start-column="117" selection-end-line="130" selection-end-column="117" />
+        <state relative-caret-position="17577">
+          <caret line="837" column="24" lean-forward="true" selection-start-line="837" selection-start-column="24" selection-end-line="837" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -501,7 +548,34 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#25191#25195#0" expanded="true" />
+            <element signature="e#25196#25203#0" expanded="true" />
+            <element signature="e#25221#25228#0" expanded="true" />
+            <element signature="e#25228#25232#0" expanded="true" />
+            <element signature="e#26270#26274#0" expanded="true" />
+            <element signature="e#26275#26282#0" expanded="true" />
+            <element signature="e#26300#26307#0" expanded="true" />
+            <element signature="e#26307#26311#0" expanded="true" />
+            <element signature="e#27372#27376#0" expanded="true" />
+            <element signature="e#27377#27384#0" expanded="true" />
+            <element signature="e#27402#27409#0" expanded="true" />
+            <element signature="e#27409#27413#0" expanded="true" />
+            <element signature="e#28469#28473#0" expanded="true" />
+            <element signature="e#28474#28481#0" expanded="true" />
+            <element signature="e#28499#28506#0" expanded="true" />
+            <element signature="e#28506#28510#0" expanded="true" />
+            <element signature="e#29573#29577#0" expanded="true" />
+            <element signature="e#29578#29585#0" expanded="true" />
+            <element signature="e#29603#29610#0" expanded="true" />
+            <element signature="e#29610#29614#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>

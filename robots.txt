@@ -1,0 +1,13 @@
+# Règle 2
+User-agent: *
+Allow: /
+
+# bloque l'indexation des images pour touts les robots
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /images/
+Allow: /
+
+Sitemap: http://julienbonnanfant.space/sitemap.xml
