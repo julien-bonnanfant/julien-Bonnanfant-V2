@@ -111,6 +111,15 @@
         opacity: 1;
     }
 }
+
+
+
+
+
+
+
+
+
 body {
     margin: 0;
     overflow: hidden;
@@ -219,3 +228,11 @@ body .msg.msg_2 {
     -o-animation: msg_second 9s infinite linear;
     animation: msg_second 9s infinite linear;
 }
+
+
+
+
+
+
+
+
