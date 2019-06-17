@@ -76,152 +76,7 @@
 	$( function () {
 		isNoviBuilder = window.xMode;
 
-		/**
-		 * @desc Google map function for getting latitude and longitude
-		 */
-		function getLatLngObject ( str, marker, map, callback ) {
-			var coordinates = {};
-			try {
-				coordinates = JSON.parse( str );
-				callback( new google.maps.LatLng(
-					coordinates.lat,
-					coordinates.lng
-				), marker, map )
-			} catch ( e ) {
-				map.geocoder.geocode( { 'address': str }, function ( results, status ) {
-					if ( status === google.maps.GeocoderStatus.OK ) {
-						var latitude = results[ 0 ].geometry.location.lat();
-						var longitude = results[ 0 ].geometry.location.lng();
 
-						callback( new google.maps.LatLng(
-							parseFloat( latitude ),
-							parseFloat( longitude )
-						), marker, map )
-					}
-				} )
-			}
-		}
-
-		/**
-		 * @desc Initialize Google maps
-		 */
-		function initMaps () {
-			var key;
-
-			for ( var i = 0; i < plugins.maps.length; i++ ) {
-				if ( plugins.maps[ i ].hasAttribute( "data-key" ) ) {
-					key = plugins.maps[ i ].getAttribute( "data-key" );
-					break;
-				}
-			}
-
-			$.getScript( '//maps.google.com/maps/api/js?' + (key ? 'key=' + key + '&' : '') + 'sensor=false&libraries=geometry,places&v=quarterly', function () {
-				var head = document.getElementsByTagName( 'head' )[ 0 ],
-					insertBefore = head.insertBefore;
-
-				head.insertBefore = function ( newElement, referenceElement ) {
-					if ( newElement.href && newElement.href.indexOf( '//fonts.googleapis.com/css?family=Roboto' ) !== -1 || newElement.innerHTML.indexOf( 'gm-style' ) !== -1 ) {
-						return;
-					}
-					insertBefore.call( head, newElement, referenceElement );
-				};
-				var geocoder = new google.maps.Geocoder;
-				for ( var i = 0; i < plugins.maps.length; i++ ) {
-					var zoom = parseInt( plugins.maps[ i ].getAttribute( "data-zoom" ), 10 ) || 11;
-					var styles = plugins.maps[ i ].hasAttribute( 'data-styles' ) ? JSON.parse( plugins.maps[ i ].getAttribute( "data-styles" ) ) : [];
-					var center = plugins.maps[ i ].getAttribute( "data-center" ) || "New York";
-
-					// Initialize map
-					var map = new google.maps.Map( plugins.maps[ i ].querySelectorAll( ".google-map" )[ 0 ], {
-						zoom:        zoom,
-						styles:      styles,
-						scrollwheel: false,
-						center:      { lat: 0, lng: 0 }
-					} );
-
-					// Add map object to map node
-					plugins.maps[ i ].map = map;
-					plugins.maps[ i ].geocoder = geocoder;
-					plugins.maps[ i ].google = google;
-
-					// Get Center coordinates from attribute
-					getLatLngObject( center, null, plugins.maps[ i ], function ( location, markerElement, mapElement ) {
-						mapElement.map.setCenter( location );
-					} );
-
-					// Add markers from google-map-markers array
-					var markerItems = plugins.maps[ i ].querySelectorAll( ".google-map-markers li" );
-
-					if ( markerItems.length ) {
-						var markers = [];
-						for ( var j = 0; j < markerItems.length; j++ ) {
-							var markerElement = markerItems[ j ];
-							getLatLngObject( markerElement.getAttribute( "data-location" ), markerElement, plugins.maps[ i ], function ( location, markerElement, mapElement ) {
-								var icon = markerElement.getAttribute( "data-icon" ) || mapElement.getAttribute( "data-icon" );
-								var activeIcon = markerElement.getAttribute( "data-icon-active" ) || mapElement.getAttribute( "data-icon-active" );
-								var info = markerElement.getAttribute( "data-description" ) || "";
-								var infoWindow = new google.maps.InfoWindow( {
-									content: info
-								} );
-								markerElement.infoWindow = infoWindow;
-								var markerData = {
-									position: location,
-									map:      mapElement.map
-								}
-								if ( icon ) {
-									markerData.icon = icon;
-								}
-								var marker = new google.maps.Marker( markerData );
-								markerElement.gmarker = marker;
-								markers.push( { markerElement: markerElement, infoWindow: infoWindow } );
-								marker.isActive = false;
-								// Handle infoWindow close click
-								google.maps.event.addListener( infoWindow, 'closeclick', (function ( markerElement, mapElement ) {
-									var markerIcon = null;
-									markerElement.gmarker.isActive = false;
-									markerIcon = markerElement.getAttribute( "data-icon" ) || mapElement.getAttribute( "data-icon" );
-									markerElement.gmarker.setIcon( markerIcon );
-								}).bind( this, markerElement, mapElement ) );
-
-
-								// Set marker active on Click and open infoWindow
-								google.maps.event.addListener( marker, 'click', (function ( markerElement, mapElement ) {
-									if ( markerElement.infoWindow.getContent().length === 0 ) return;
-									var gMarker, currentMarker = markerElement.gmarker, currentInfoWindow;
-									for ( var k = 0; k < markers.length; k++ ) {
-										var markerIcon;
-										if ( markers[ k ].markerElement === markerElement ) {
-											currentInfoWindow = markers[ k ].infoWindow;
-										}
-										gMarker = markers[ k ].markerElement.gmarker;
-										if ( gMarker.isActive && markers[ k ].markerElement !== markerElement ) {
-											gMarker.isActive = false;
-											markerIcon = markers[ k ].markerElement.getAttribute( "data-icon" ) || mapElement.getAttribute( "data-icon" )
-											gMarker.setIcon( markerIcon );
-											markers[ k ].infoWindow.close();
-										}
-									}
-
-									currentMarker.isActive = !currentMarker.isActive;
-									if ( currentMarker.isActive ) {
-										if ( markerIcon = markerElement.getAttribute( "data-icon-active" ) || mapElement.getAttribute( "data-icon-active" ) ) {
-											currentMarker.setIcon( markerIcon );
-										}
-
-										currentInfoWindow.open( map, marker );
-									} else {
-										if ( markerIcon = markerElement.getAttribute( "data-icon" ) || mapElement.getAttribute( "data-icon" ) ) {
-											currentMarker.setIcon( markerIcon );
-										}
-										currentInfoWindow.close();
-									}
-								}).bind( this, markerElement, mapElement ) )
-							} )
-						}
-					}
-				}
-			} );
-		}
 
 		// Page loader & Page transition
 		if ( plugins.preloader.length && !isNoviBuilder ) {
@@ -419,6 +274,11 @@
 				responsive:    responsive,
 				navText:       function () {
 					try {
+
+
+
+
+
 						return JSON.parse( c.attr( "data-nav-text" ) );
 					} catch ( e ) {
 						return [];
@@ -535,96 +395,7 @@
 			return true;
 		}
 
-		/**
-		 * @desc Validate google reCaptcha
-		 * @param {object} captcha - captcha object for validation
-		 * @return {boolean}
-		 */
-		function validateReCaptcha(captcha) {
-			var captchaToken = captcha.find('.g-recaptcha-response').val();
 
-			if (captchaToken.length === 0) {
-				captcha
-					.siblings('.form-validation')
-					.html('Please, prove that you are not robot.')
-					.addClass('active');
-				captcha
-					.closest('.form-wrap')
-					.addClass('has-error');
-
-				captcha.on('propertychange', function () {
-					var $this = $(this),
-						captchaToken = $this.find('.g-recaptcha-response').val();
-
-					if (captchaToken.length > 0) {
-						$this
-							.closest('.form-wrap')
-							.removeClass('has-error');
-						$this
-							.siblings('.form-validation')
-							.removeClass('active')
-							.html('');
-						$this.off('propertychange');
-					}
-				});
-
-				return false;
-			}
-
-			return true;
-		}
-
-		/**
-		 * @desc Initialize Google reCaptcha
-		 */
-		window.onloadCaptchaCallback = function () {
-			for (var i = 0; i < plugins.captcha.length; i++) {
-				var
-					$captcha = $(plugins.captcha[i]),
-					resizeHandler = (function() {
-						var
-							frame = this.querySelector( 'iframe' ),
-							inner = this.firstElementChild,
-							inner2 = inner.firstElementChild,
-							containerRect = null,
-							frameRect = null,
-							scale = null;
-
-						inner2.style.transform = '';
-						inner.style.height = 'auto';
-						inner.style.width = 'auto';
-
-						containerRect = this.getBoundingClientRect();
-						frameRect = frame.getBoundingClientRect();
-						scale = containerRect.width/frameRect.width;
-
-						if ( scale < 1 ) {
-							inner2.style.transform = 'scale('+ scale +')';
-							inner.style.height = ( frameRect.height * scale ) + 'px';
-							inner.style.width = ( frameRect.width * scale ) + 'px';
-						}
-					}).bind( plugins.captcha[i] );
-
-				grecaptcha.render(
-					$captcha.attr('id'),
-					{
-						sitekey: $captcha.attr('data-sitekey'),
-						size: $captcha.attr('data-size') ? $captcha.attr('data-size') : 'normal',
-						theme: $captcha.attr('data-theme') ? $captcha.attr('data-theme') : 'light',
-						callback: function () {
-							$('.recaptcha').trigger('propertychange');
-						}
-					}
-				);
-
-				$captcha.after("<span class='form-validation'></span>");
-
-				if ( plugins.captcha[i].hasAttribute( 'data-auto-size' ) ) {
-					resizeHandler();
-					window.addEventListener( 'resize', resizeHandler );
-				}
-			}
-		};
 
 		/**
 		 * @desc Initialize the gallery with set of images
@@ -693,10 +464,6 @@
 			}
 		}
 
-		// Google ReCaptcha
-		if (plugins.captcha.length) {
-			$.getScript("//www.google.com/recaptcha/api.js?onload=onloadCaptchaCallback&render=explicit&hl=en");
-		}
 
 		// Additional class on html if mac os.
 		if ( navigator.platform.match( /(Mac)/i ) ) {
@@ -1442,11 +1209,5 @@
 				}
 			} )
 		}
-
-		// Google maps
-		if ( plugins.maps.length ) {
-			lazyInit( plugins.maps, initMaps );
-		}
-
 	} );
 }());

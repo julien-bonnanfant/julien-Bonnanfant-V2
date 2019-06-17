@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="955b97c5-a847-4b3c-901a-8d8130dc756a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/ReCaptcha.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod/Curl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod/CurlPost.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod/Post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod/Socket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod/SocketPost.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestParameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/Response.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/phpmailer/PHPMailerAutoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/phpmailer/class.phpmailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/phpmailer/class.pop3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/phpmailer/class.smtp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/rd-google-map.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/rd-mailform.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/rd-mailform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/rd-mailform.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/rd-search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bat/reCaptcha.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="154" column="29" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+            <state relative-caret-position="458">
+              <caret line="70" column="95" selection-start-line="70" selection-start-column="95" selection-end-line="70" selection-end-column="95" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -36,7 +58,23 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#13616#16364#0" />
+                <element signature="e#16439#19198#0" />
+                <element signature="e#19227#20205#0" />
+                <element signature="e#25087#25981#0" />
+                <element signature="e#27216#30366#0" />
+                <element signature="e#30510#43126#0" />
+                <element signature="e#45051#47421#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="465" selection-start-line="465" selection-end-line="465" />
             </state>
           </provider>
         </entry>
@@ -125,7 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>julien bo</find>
       <find>border: 1px solid #e1e1e1;</find>
       <find>particles-js</find>
       <find>background-image: url(../images/quote-jean.png);</find>
@@ -155,6 +192,7 @@
       <find>h1</find>
       <find>h2</find>
       <find>favic</find>
+      <find>nav</find>
     </findStrings>
     <replaceStrings>
       <replace>#803232</replace>
@@ -171,7 +209,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/loader.css" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/../slides-s (1).html" />
         <option value="$USER_HOME$/Downloads/slides-s.html" />
@@ -191,6 +228,7 @@
         <option value="$PROJECT_DIR$/css/404.css" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -292,18 +330,18 @@
       <workItem from="1559760856645" duration="3331000" />
       <workItem from="1560336013858" duration="1627000" />
       <workItem from="1560509940250" duration="661000" />
-      <workItem from="1560523390986" duration="1839000" />
+      <workItem from="1560523390986" duration="2606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56725000" />
+    <option name="totallyTimeSpent" value="57492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -319,7 +357,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.05186722" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.05186722" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -476,17 +514,10 @@
     <entry file="file://$PROJECT_DIR$/images/mosaeek_card.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="154" column="29" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+        <state relative-caret-position="458">
+          <caret line="70" column="95" selection-start-line="70" selection-start-column="95" selection-end-line="70" selection-end-column="95" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -495,6 +526,13 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13616#16364#0" />
+            <element signature="e#16439#19198#0" />
+            <element signature="e#19227#20205#0" />
+            <element signature="e#25087#25981#0" />
+            <element signature="e#27216#30366#0" />
+            <element signature="e#30510#43126#0" />
+            <element signature="e#45051#47421#0" />
           </folding>
         </state>
       </provider>
@@ -552,6 +590,13 @@
             <element signature="e#57366#57609#2" expanded="true" />
             <element signature="e#58618#58867#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="465" selection-start-line="465" selection-end-line="465" />
         </state>
       </provider>
     </entry>
