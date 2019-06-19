@@ -3,28 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="955b97c5-a847-4b3c-901a-8d8130dc756a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/ReCaptcha.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod/Curl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod/CurlPost.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod/Post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod/Socket.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestMethod/SocketPost.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/RequestParameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/Response.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/ReCaptcha/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/phpmailer/PHPMailerAutoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/phpmailer/class.phpmailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/phpmailer/class.pop3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/phpmailer/class.smtp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/rd-google-map.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/rd-mailform.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/rd-mailform.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/rd-mailform.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/rd-search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bat/reCaptcha.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,10 +25,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="70" column="95" selection-start-line="70" selection-start-column="95" selection-end-line="70" selection-end-column="95" />
+            <state relative-caret-position="293">
+              <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -58,23 +46,7 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#13616#16364#0" />
-                <element signature="e#16439#19198#0" />
-                <element signature="e#19227#20205#0" />
-                <element signature="e#25087#25981#0" />
-                <element signature="e#27216#30366#0" />
-                <element signature="e#30510#43126#0" />
-                <element signature="e#45051#47421#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="465" selection-start-line="465" selection-end-line="465" />
             </state>
           </provider>
         </entry>
@@ -163,8 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>border: 1px solid #e1e1e1;</find>
-      <find>particles-js</find>
       <find>background-image: url(../images/quote-jean.png);</find>
       <find>parti</find>
       <find>background-image: url(../images/quote-jean.png)</find>
@@ -193,6 +163,8 @@
       <find>h2</find>
       <find>favic</find>
       <find>nav</find>
+      <find>navbar-toggle</find>
+      <find>navbar</find>
     </findStrings>
     <replaceStrings>
       <replace>#803232</replace>
@@ -227,15 +199,15 @@
         <option value="$PROJECT_DIR$/vim-config/index.html" />
         <option value="$PROJECT_DIR$/css/404.css" />
         <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -244,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,16 +224,10 @@
               <item name="julien-Bonnanfant-V2" type="b2602c69:ProjectViewProjectNode" />
               <item name="julien-Bonnanfant-V2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="julien-Bonnanfant-V2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="julien-Bonnanfant-V2" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -330,18 +297,20 @@
       <workItem from="1559760856645" duration="3331000" />
       <workItem from="1560336013858" duration="1627000" />
       <workItem from="1560509940250" duration="661000" />
-      <workItem from="1560523390986" duration="2606000" />
+      <workItem from="1560523390986" duration="2792000" />
+      <workItem from="1560847849104" duration="743000" />
+      <workItem from="1560970869399" duration="495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57492000" />
+    <option name="totallyTimeSpent" value="58916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31196582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -394,9 +363,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/clients-3-270x117.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/clients-9-270x117.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -479,9 +445,7 @@
     <entry file="file://$USER_HOME$/Downloads/slides-s (1).html" />
     <entry file="file://$USER_HOME$/Downloads/slides-s (2).html" />
     <entry file="file://$USER_HOME$/Downloads/slides-s (3).html" />
-    <entry file="file://$PROJECT_DIR$/bat/rd-mailform.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bat/rd-mailform.php" />
     <entry file="file://$USER_HOME$/Downloads/slides-s (4).html" />
     <entry file="file://$PROJECT_DIR$/article_mosaeek/index.html" />
     <entry file="file://$PROJECT_DIR$/robots.txt">
@@ -514,26 +478,15 @@
     <entry file="file://$PROJECT_DIR$/images/mosaeek_card.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="70" column="95" selection-start-line="70" selection-start-column="95" selection-end-line="70" selection-end-column="95" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#13616#16364#0" />
-            <element signature="e#16439#19198#0" />
-            <element signature="e#19227#20205#0" />
-            <element signature="e#25087#25981#0" />
-            <element signature="e#27216#30366#0" />
-            <element signature="e#30510#43126#0" />
-            <element signature="e#45051#47421#0" />
-          </folding>
+        <state relative-caret-position="-720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -593,10 +546,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="465" selection-start-line="465" selection-end-line="465" />
+        <state relative-caret-position="293">
+          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
