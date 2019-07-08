@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="955b97c5-a847-4b3c-901a-8d8130dc756a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-314">
-              <caret line="364" column="50" selection-start-line="364" selection-start-column="50" selection-end-line="364" selection-end-column="50" />
+            <state relative-caret-position="220">
+              <caret line="334" column="34" selection-start-line="334" selection-start-column="34" selection-end-line="334" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,8 +66,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="280" lean-forward="true" selection-start-line="280" selection-end-line="280" />
+            <state relative-caret-position="294">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding>
+                <element signature="e#274143#275590#2" expanded="true" />
+                <element signature="e#275733#277177#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="520" column="2" selection-start-line="520" selection-end-line="520" selection-end-column="2" />
+              <folding>
+                <element signature="e#45527#45730#2" expanded="true" />
+                <element signature="e#45865#46017#2" expanded="true" />
+                <element signature="e#46181#46330#2" expanded="true" />
+                <element signature="e#46774#46940#1" expanded="true" />
+                <element signature="e#57366#57609#2" expanded="true" />
+                <element signature="e#58618#58867#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,13 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>background-image: url(../images/quote-jean.png);</find>
-      <find>parti</find>
-      <find>background-image: url(../images/quote-jean.png)</find>
-      <find>logo</find>
-      <find>modal</find>
-      <find>Développement Web</find>
-      <find>h3</find>
       <find>progress</find>
       <find>min-height</find>
       <find>min-height: 150px</find>
@@ -121,6 +137,13 @@
       <find>nav</find>
       <find>navbar-toggle</find>
       <find>navbar</find>
+      <find>252525</find>
+      <find>icon</find>
+      <find>.icon</find>
+      <find>.ico</find>
+      <find>font-size: 22px</find>
+      <find>social-</find>
+      <find>social-m</find>
     </findStrings>
     <replaceStrings>
       <replace>#803232</replace>
@@ -156,9 +179,9 @@
         <option value="$PROJECT_DIR$/css/404.css" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ssh_setup/index.html" />
         <option value="$PROJECT_DIR$/ssh_setup/ssh_setup.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -276,12 +299,12 @@
       <workItem from="1560970869399" duration="1799000" />
       <workItem from="1562334434373" duration="291000" />
       <workItem from="1562335657969" duration="181000" />
-      <workItem from="1562498660617" duration="323000" />
+      <workItem from="1562498660617" duration="2914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61015000" />
+    <option name="totallyTimeSpent" value="63606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -460,21 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="268" column="6" selection-start-line="268" selection-end-line="268" selection-end-column="6" />
-          <folding>
-            <element signature="e#45527#45730#2" expanded="true" />
-            <element signature="e#45865#46017#2" expanded="true" />
-            <element signature="e#46181#46330#2" expanded="true" />
-            <element signature="e#46774#46940#1" expanded="true" />
-            <element signature="e#57366#57609#2" expanded="true" />
-            <element signature="e#58618#58867#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -502,6 +510,21 @@
     <entry file="file://$PROJECT_DIR$/images/julien-bonnanfant-com.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="520" column="2" selection-start-line="520" selection-end-line="520" selection-end-column="2" />
+          <folding>
+            <element signature="e#45527#45730#2" expanded="true" />
+            <element signature="e#45865#46017#2" expanded="true" />
+            <element signature="e#46181#46330#2" expanded="true" />
+            <element signature="e#46774#46940#1" expanded="true" />
+            <element signature="e#57366#57609#2" expanded="true" />
+            <element signature="e#58618#58867#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ssh_setup/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6048">
@@ -511,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <caret line="364" column="50" selection-start-line="364" selection-start-column="50" selection-end-line="364" selection-end-column="50" />
+        <state relative-caret-position="220">
+          <caret line="334" column="34" selection-start-line="334" selection-start-column="34" selection-end-line="334" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -528,8 +551,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="280" lean-forward="true" selection-start-line="280" selection-end-line="280" />
+        <state relative-caret-position="294">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#274143#275590#2" expanded="true" />
+            <element signature="e#275733#277177#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
