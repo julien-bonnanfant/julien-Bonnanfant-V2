@@ -4,7 +4,7 @@
 
 Durant l'été 2018 j'ai pue participé au développement de plusieurs projets, l'un d'entre eux s'appelle Mosaeek, Il s'agit d'une plateforme permettant d'ajouter, en plus des commentaires texte que l'on trouve sous une vidéo YouTube, des commentaires vidéo. Cela peut permettre d'ajouter un coté plus humain aux parties commentaires de différents réseaux sociaux.
 
-![Image du logo de mosaeek](../images/mosaeek.png)
+![Image du logo de mosaeek](../../images/mosaeek.png)
 
 [Le Site de Mosaeek](https://mosaeek.com/)
 

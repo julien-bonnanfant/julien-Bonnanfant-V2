@@ -4,7 +4,7 @@ Un scanner de réseaux permet de découvrir les hôtes qui sont connectés sur l
 
 
 
-![image requête ARP avec Wireshark  ](../images/scanimg1.png)
+![image requête ARP avec Wireshark  ](../../images/scanimg1.png)
 
 Ici nous allons tester différents scanneurs de réseaux, sur MacOs, sur Windows, kalilinux et sur mobile.
 
@@ -16,7 +16,7 @@ On va utiliser Angry IP scanner, il est très simple d’utilisation, il vous su
 
 
 
-![image de angry ip, scanneur de reseau pour mac os](../images/scanimg2.png)
+![image de angry ip, scanneur de reseau pour mac os](../../images/scanimg2.png)
 
 Il permet de trouver l’adresse IP, le nom d’hôte et la vitesse de Ping entre notre machine et celles-ci. On s’en sert surtout pour trouver la liste de toutes les machines sur le réseau Une fois que l’on a une liste d’hôtes on peut voir quel port utilise quels services grâce à Nmap par exemple.
 
@@ -26,7 +26,7 @@ Il permet de trouver l’adresse IP, le nom d’hôte et la vitesse de Ping entr
 
 Pour Windows on peut faire la même chose avec Advanced ip scanner par exemple les deux logiciels sont sensiblement les mêmes, on voit apparaître les différentes machines up sur le réseau. Je trouve que la manière de renseigner la plage d’adresse ip est juste un petit peu moins explicite que sur AngryIP. Par contre on voit que les machines qui sont UP, c’est plus agréable.
 
-![image de advenced ip scanneur sur windows ](../images/scanimg3.png)
+![image de advenced ip scanneur sur windows ](../../images/scanimg3.png)
 
 Une fois que l’on a les machines cibles on peut toujours utiliser Nmap pour en savoir un peu plus (Ports ouverts et différents services ainsi que leurs versions.)
 
@@ -50,23 +50,23 @@ On Lance mysql :
 
  On va lancer Metasploit dans Application à Exploitation Tools à Metasploit.
 
-![image du lancement de armitage sur kalilinux ](../images/scanimg4.png)
+![image du lancement de armitage sur kalilinux ](../../images/scanimg4.png)
 
 
 
 Puis Armitage dans Application à Exploitation Tools à Armitage Une fois dans Armitage on va dans « Host -> Nmap Scan -> QuickscanOS »
 
-![](../images/scanimg5.png)
+![](../../images/scanimg5.png)
 
 Une fenêtre de connexion apparaît et les informations sont déjà remplies, il faut appuyer sur « Connect », puis sur la fenêtre de dialogue suivant, cliquez sur YES
 
 
 
-![](../images/scanimg6.png)
+![](../../images/scanimg6.png)
 
 Le scan peut être un peu long, une fois terminer vous voyez les machines cibles sur votre réseau.
 
-![](../images/scanimg7.png)
+![](../../images/scanimg7.png)
 
 Cet outil est de loin le plus complet, si vous cliquez ensuite sur une des machines (Clic droit) et que vous choisissez de faire un scan, vous avez le détail des ports ouvert et des services qui les utilisent. Et pour finir, grâce à Metaploit et la Msfconsole accessible depuis Armitage, on peut directement tester les différents exploits sur les machines. Personnellement, je préfère cette méthode. Elle est peut-être un peu plus complexe, mais une fois en place, je trouve que le fait qu’elle réunissent les différents outils de l’analyse de réseaux, de port, jusqu’à l’exécution d’exploit sur les machines est extrêmement pratique.
 
@@ -92,7 +92,7 @@ Par défaut, Nikto scan sur le port 80, on utilise la commande suivante pour sca
 nikto -h AdresseIP ou URL
 ```
 
-![](../images/scanimg8.png)
+![](../../images/scanimg8.png)
 
 
 

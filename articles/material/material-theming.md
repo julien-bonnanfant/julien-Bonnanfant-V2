@@ -7,7 +7,7 @@ Le matérial Design est un langage visuel créé par Google puis apparut pour pr
 Le but était de normaliser leurs flottes d'applications (Gmail, Google drive, Google chrome, YouTube,) et de mettre en place un design open source et donc de fournir une base aux développeurs.         
 Lors de la conférence Google I/O 2018 en mai dernier, la firme de MontainView à annoncé une refonte de son design, le matérial theming. Cette refonte concernera en priorité les applications Android, et Android P qui vient d'arriver en Beta 2 il y a quelques jours.     
 
-​    ![Image de material theming](../images/materialtheming.png)
+​    ![Image de material theming](../../images/materialtheming.png)
 
 
 

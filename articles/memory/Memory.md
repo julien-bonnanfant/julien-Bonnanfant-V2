@@ -9,7 +9,7 @@ Avec memory, on peut aller conduire un tank, se faire interroger par des agents 
 
 La liste des activités et longue, si elle vous intéresse, vous pouvez la retrouver [ici](https://www.memoryvoyage.com/activity-categories)
 
-![Image du logo de mosaeek](../images/logo_entire.png)
+![Image du logo de mosaeek](../../images/logo_entire.png)
 
 
 
@@ -23,7 +23,7 @@ Pendant ce stage j'ai dû réaliser un blog pour memory, ils disposent déjà d'
 
 Avant de me lancer dans le développement du blog, j'ai réalisé des maquettes design sur adobe XD en essayant de respecter au mieux la charte graphique qui était déjà en place sur le premier site, tout en ne copiant pas exactement les differents design pour que l'uttlisateur ne confonde pas les deux site (blog et site principal)
 
-![Maquette du blog de Memory travels&events](../images/maquette_desktop.png)														Voici un exemple des maquette que j'ai réalisé
+![Maquette du blog de Memory travels&events](../../images/maquette_desktop.png)														Voici un exemple des maquette que j'ai réalisé
 
 Une fois la maquette faites sous adobe XD, je l'ai reproduite en Html/css pour pouvoir ensuite fabriquer un thème WordPress propre à Memory. 
 

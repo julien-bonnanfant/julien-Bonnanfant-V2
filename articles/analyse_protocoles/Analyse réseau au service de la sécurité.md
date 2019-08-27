@@ -8,7 +8,7 @@ On va découvrir le fonctionnement de 3 protocoles réseaux differents grace à 
 
 Le protocole ARP (Adresse Resolution Protocole) permet de connaitre l’adresse mac (Adresse physique) d’une carte réseau qui correspond à une adresse IP. Le protocole ARP demande aux machines voisines leur adresse physique puis créé ensuite une table sur laquelle il va les stocker (table ARP). On va voir son fonctionnement avec un test simple, on va sniffer le moment ou ARP fabrique sa table. On ouvre Wireshark et on lance un test, avec seulement les requêtes ARP.
 
-![](../images/scan_protocole1.png)
+![](../../images/scan_protocole1.png)
 
 On va supprimer les données qui sont déjà enregistrer dans la table ARP pour bien voir la découverte du réseau. Comme ça, on aura beaucoup plus de requêtes ARP.
 
@@ -16,15 +16,15 @@ On va supprimer les données qui sont déjà enregistrer dans la table ARP pour 
 sudo arp -a -d
 ```
 
-![](../images/scan_protocole2.png)
+![](../../images/scan_protocole2.png)
 
 Une fois le cache ARP nettoyé, on retourne sur Wireshark :
 
-![](../images/scan_protocole3.png)
+![](../../images/scan_protocole3.png)
 
 On voit ici que le système MacOs envoie des requête ARP à tout le monde (en Broadcast, il demande par exemple « Qui est 192.168.1.16, demande 192.168.1.21 » et il reçoit une réponse « 192.168.1.16 et à 74:b5:87:ae:3c:d4 » Les informations sont de nouveau enregistrées dans le cache ARP.
 
-![](../images/scan_protocole4.png)
+![](../../images/scan_protocole4.png)
 
 ### 2 - Vulnerabilités
 
@@ -42,11 +42,11 @@ On peut utiliser ARPwatch2 ou arpalert pour surveiller les différents paquets A
 
 Nous allons établir une connexion SSH avec le VPS et sniffer le réseau avec Wireshark pour comprendre le fonctionnement d’une session TCP
 
-![](../images/scan_protocole5.png)
+![](../../images/scan_protocole5.png)
 
 On voit la première requête avec un flag SYN (demande de synchronisation ou établissement de connexion, permet la synchronisation des numéros de séquences.) On a une réponse SYN-ACK du serveur, puis un ACK du client A la fin de la session (quand on se déconnecte du serveur) on a une requête avec un flag FIN (demande la fin de la connexion.)
 
-![](../images/scan_protocole6.png)
+![](../../images/scan_protocole6.png)
 
 Les numéros de séquences permettent de personnaliser le dialogue entre les machines et de vérifier que les interlocuteurs TCP sont bien les bons. Le numéro de séquence s’incrémente à chaque paquet échangé entre deux machines. Ils sont utilisés avec le numéro d’acquittement et le nombre d’octet du dernier paquet pour ajouter une sécurité au protocole. 
 
@@ -64,17 +64,17 @@ Pour empêcher ça on peut limiter le nombre de SYN provenant de la même adress
 
 On va utiliser FileZilla sur MacOs, donc on ouvre Filezilla et wireshark, Sur Filezilla on crée une nouvelle connexion, on remplit les informations de notre VPS
 
-![](../images/scan_protocole7.png)
+![](../../images/scan_protocole7.png)
 
 Avant de cliquer sur connexion, on lance wireshark
 
 Déjà on voit que FileZilla nous met en garde sur le fait que les fichiers vont être envoyés en clair.
 
-![](../images/scan_protocole8.png)
+![](../../images/scan_protocole8.png)
 
 Et quand la connexion est établie, on arrête le sniff Wireshark et on recherche uniquement le protocole FTP.
 
-![](../images/scan_protocole9.png)
+![](../../images/scan_protocole9.png)
 
 On voit directement le login et mot de passe en clair transiter entre le VPS et le client.
 
