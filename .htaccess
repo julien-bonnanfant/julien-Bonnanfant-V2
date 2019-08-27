@@ -8,11 +8,20 @@ deny from all
 RewriteCond %{HTTP_HOST} ^julienbonnanfant.space$
 RewriteRule ^(.*) http://www.julienbonnanfant.space/$1 [QSA,L,R=301][/nice_code]
 
+# Rewrite --- http://www.julienbonnanfant.space/ => https://julienbonnanfant.space/
 
-# Redirect non-www to www
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.julienbonnanfant\.space [NC]
-RewriteRule ^(.*)$ http://julienbonnanfant.space/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.julienbonnanfant\.space$
+RewriteRule ^$ https://julienbonnanfant.space/?&%{QUERY_STRING}
+
+# Rewrite --- https://www.julienbonnanfant.space/ => https://julienbonnanfant.space/
+
+RewriteCond %{HTTP_HOST} ^www\.julienbonnanfant\.space$
+RewriteRule ^$ https://julienbonnanfant.space/?&%{QUERY_STRING}
+
+
+# Rewrite --- http://julienbonnanfant.space/ => https://julienbonnanfant.space/
+
+RewriteRule ^$ /?&%{QUERY_STRING}
 
 
 
