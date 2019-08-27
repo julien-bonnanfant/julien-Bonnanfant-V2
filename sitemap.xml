@@ -8,23 +8,43 @@
 
 
 <url>
-  <loc>http://julienbonnanfant.space/</loc>
-  <lastmod>2019-06-01T07:54:52+00:00</lastmod>
+  <loc>https://julienbonnanfant.space/</loc>
+  <lastmod>2019-08-16T13:09:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://julienbonnanfant.space/index.html</loc>
-  <lastmod>2019-06-01T07:54:52+00:00</lastmod>
+  <loc>https://julienbonnanfant.space/index.html</loc>
+  <lastmod>2019-08-16T13:09:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://julienbonnanfant.space/images/cv.pdf</loc>
-  <lastmod>2019-06-01T07:54:52+00:00</lastmod>
+  <loc>https://julienbonnanfant.space/ssh_setup/index.html</loc>
+  <lastmod>2019-08-16T13:09:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://julienbonnanfant.space/ssh_setup/index.html</loc>
-  <lastmod>2019-06-01T07:54:52+00:00</lastmod>
+  <loc>https://julienbonnanfant.space/mosaeek/index.html</loc>
+  <lastmod>2019-08-16T13:09:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://julienbonnanfant.space/vim-config/index.html</loc>
+  <lastmod>2019-08-16T13:09:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://julienbonnanfant.space/wordpress_centos/index.html</loc>
+  <lastmod>2019-08-16T13:09:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://julienbonnanfant.space/memory/index.html</loc>
+  <lastmod>2019-08-16T13:09:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://julienbonnanfant.space/scan-reseau/index.html</loc>
+  <lastmod>2019-08-16T13:09:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
