@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="955b97c5-a847-4b3c-901a-8d8130dc756a" name="Default Changelist" comment="" />
+    <list default="true" id="955b97c5-a847-4b3c-901a-8d8130dc756a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/creator_uid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/vagrant_cwd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/rgloader/loader.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vagrantfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +66,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/articles" />
+      <recent name="$PROJECT_DIR$/ssh_setup" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ssh_setup" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -114,6 +128,7 @@
       <workItem from="1565791750205" duration="22000" />
       <workItem from="1565945867932" duration="2492000" />
       <workItem from="1565960861750" duration="137000" />
+      <workItem from="1566896968419" duration="903000" />
     </task>
     <servers />
   </component>

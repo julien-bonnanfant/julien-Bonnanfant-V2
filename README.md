@@ -5,7 +5,7 @@
   ## Le site
   
   Ce site présente mes competence, certains projets, tutoriels, et articles.
-  Il est hebergé sur julienbonnanfant.space actuellement 
+  Il est hebergé sur julienbonnanfant.space actuellementxs 
 
 
   ## Scripts
@@ -15,7 +15,7 @@
 
  ## Tutoriels
 
-Sur le site julienbonnanfant il y à quelques tutoriel, il sont tous réalisé avec slides.com
+Sur le site julienbonnanfant il y à quelques tutoriel, il sont tous réalisé avec slides.com et le logiciel Typhora
 
 
 ## Frameworks
