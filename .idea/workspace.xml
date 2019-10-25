@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="955b97c5-a847-4b3c-901a-8d8130dc756a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/you-see/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/you-see/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/you-see/dist/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/you-see/dist/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/you-see/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/you-see/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/you-see/src/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/you-see/src/style.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -119,6 +129,8 @@
       <workItem from="1565945867932" duration="2492000" />
       <workItem from="1565960861750" duration="137000" />
       <workItem from="1566896968419" duration="1304000" />
+      <workItem from="1571991083475" duration="374000" />
+      <workItem from="1571991459039" duration="1025000" />
     </task>
     <servers />
   </component>
