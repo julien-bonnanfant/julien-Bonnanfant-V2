@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="955b97c5-a847-4b3c-901a-8d8130dc756a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/pfsense/pfsense-config.html" beforeDir="false" afterPath="$PROJECT_DIR$/articles/pfsense/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/pfsense/Mise en place de PfSense.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/pfsense/Mise en place de PfSense.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +124,7 @@
       <workItem from="1571991459039" duration="1025000" />
       <workItem from="1573478445264" duration="25000" />
       <workItem from="1573478478331" duration="985000" />
+      <workItem from="1573726441932" duration="530000" />
     </task>
     <servers />
   </component>

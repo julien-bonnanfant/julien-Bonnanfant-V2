@@ -1,7 +1,3 @@
-
-
-
-
 #Mise en place de PfSense
 
 Pfsense est un pare-feu / routeur open source basé sur le système freeBSD, nous allons en installer deux sur deux reseaux privés différents (considéré comme deux sites differents d'une entreprise : Paris et Lyon)
