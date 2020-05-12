@@ -11,5 +11,3 @@ Disallow: /images/
 Allow: /
 
 Sitemap: http://julienbonnanfant.space/sitemap.xml
-
-ErrorDocument 404 /404.html

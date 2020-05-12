@@ -6,7 +6,7 @@ On va découvrir le fonctionnement de 3 protocoles réseaux differents grace à 
 
 ### 1- Fonctionnement
 
-Le protocole ARP (Adresse Resolution Protocole) permet de connaitre l’adresse mac (Adresse physique) d’une carte réseau qui correspond à une adresse IP. Le protocole ARP demande aux machines voisines leur adresse physique puis créé ensuite une table sur laquelle il va les stocker (table ARP). On va voir son fonctionnement avec un test simple, on va sniffer le moment ou ARP fabrique sa table. On ouvre Wireshark et on lance un test, avec seulement les requêtes ARP.
+Le protocole ARP (Adresse Resolution Protocole) permet de connaître l’adresse mac (Adresse physique) d’une carte réseau qui correspond à une adresse IP. Le protocole ARP demande aux machines voisines leur adresse physique puis créé ensuite une table sur laquelle il va les stocker (table ARP). On va voir son fonctionnement avec un test simple, on va sniffer le moment ou ARP fabrique sa table. On ouvre Wireshark et on lance un test, avec seulement les requêtes ARP.
 
 ![](../../images/scan_protocole1.png)
 
@@ -48,7 +48,7 @@ On voit la première requête avec un flag SYN (demande de synchronisation ou é
 
 ![](../../images/scan_protocole6.png)
 
-Les numéros de séquences permettent de personnaliser le dialogue entre les machines et de vérifier que les interlocuteurs TCP sont bien les bons. Le numéro de séquence s’incrémente à chaque paquet échangé entre deux machines. Ils sont utilisés avec le numéro d’acquittement et le nombre d’octet du dernier paquet pour ajouter une sécurité au protocole. 
+Les numéros de séquences permettent de personnaliser le dialogue entre les machines et de vérifier que les interlocuteurs TCP sont bien les bons. Le numéro de séquence s’incrémente à chaque paquet échangé entre deux machines. Ils sont utilisés avec le numéro d’acquittement et le nombre d’octet du dernier paquet pour ajouter une sécurité au protocole.
 
 ### 2 - Vulnerabilités
 
@@ -95,4 +95,3 @@ sudo scp -P 1999 /Users/julienbonnanfant/Desktop/test_sftp julien@adressServeur:
 On a aussi FTP/S qui ajoute une couche SSL ou son successeur TLS qui, comme HTTPS avec HTTP, permet de faire passer les transferts FTP par un canal chiffré.
 
 ***Publié le 1 juillet 2019***
-

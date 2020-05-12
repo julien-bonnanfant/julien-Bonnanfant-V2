@@ -10,9 +10,9 @@ Durant l'été 2018 j'ai pue participé au développement de plusieurs projets, 
 
 Initialement le choix était de faire une plateforme de vidéo appart entière mais
 pour la stratégie d'acquisition d'utilisateur ce n'était pas terrible étant donné que
-comme "plateforme de partage de vidéo" YouTube et largement dominant sur le web. 
+comme "plateforme de partage de vidéo" YouTube et largement dominant sur le web.
 
-Les fondateurs ont donc choisi de faire un pivot et de développer plutôt une extension Google chrome qui ajoute une surcouche par-dessus YouTube pour bénéficier du réseau conséquent d'utilisateur dont l'application de Google dispose (pour une nouvelle plateforme cela peut prendre de longues années et ne jamais fonctionner).
+Les fondateurs ont donc choisi de faire un pivot et de développer plutôt une extension Google chrome qui ajoute une sur-couche par-dessus YouTube pour bénéficier du réseau conséquent d'utilisateur dont l'application de Google dispose (pour une nouvelle plateforme cela peut prendre de longues années et ne jamais fonctionner).
 
 ## Pourquoi faire ça ?
 
@@ -23,4 +23,3 @@ dans les vidéos ouvre à pleins de possibilités comme l'ajout de liens, de pho
 pour enrichir la vidéo principale.
 
 ***Publié le 12 août 2018***
-

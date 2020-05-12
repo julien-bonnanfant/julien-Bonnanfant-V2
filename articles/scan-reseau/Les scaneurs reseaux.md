@@ -1,4 +1,4 @@
-# Le scanneurs de reseaux 
+# Le scanneurs de reseaux
 
 Un scanner de réseaux permet de découvrir les hôtes qui sont connectés sur le réseau, comme on peut le remarquer lorsque on sniff le moment où on scan le réseau, il envoie des requêtes ARP en broadcast à tout le réseau et attend les réponses.
 
@@ -6,7 +6,7 @@ Un scanner de réseaux permet de découvrir les hôtes qui sont connectés sur l
 
 ![image requête ARP avec Wireshark  ](../../images/scanimg1.png)
 
-Ici nous allons tester différents scanneurs de réseaux, sur MacOs, sur Windows, kalilinux et sur mobile.
+Ici nous allons tester différents scanneurs de réseaux, sur MacOs, sur Windows, Kali-linux et sur mobile.
 
 
 
@@ -40,7 +40,7 @@ Il faut mettre les paquets à jours :
 apt update
 ```
 
-On Lance mysql : 
+On Lance mysql :
 
 ```bash
 /etc/init.d/mysql start
@@ -107,6 +107,3 @@ Du coté attaquant, avant de gagner l’accès sur une machine, on passe forcém
 
 
 ***Publié le 20 Juin 2019***
-
-
-
