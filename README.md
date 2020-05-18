@@ -15,7 +15,7 @@
 
  ## Tutoriels
 
-Sur le site julienbonnanfant il y à quelques tutoriel, il sont tous réalisé avec slides.com et le logiciel Typhora
+Sur le site julienbonnanfant il y à quelques tutoriels, il sont tous réalisésavec slides.com et le logiciel Typhora
 
 
 ## Frameworks
