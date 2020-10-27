@@ -69,48 +69,6 @@ ol li {
 	display: block;
 }
 
-dl {
-	margin: 0;
-}
-
-dt,
-dd {
-	line-height: inherit;
-}
-
-dt {
-	font-weight: inherit;
-}
-
-dd {
-	margin-bottom: 0;
-}
-
-cite {
-	font-style: normal;
-}
-
-form {
-	margin-bottom: 0;
-}
-
-blockquote {
-	padding-left: 0;
-	border-left: 0;
-}
-
-address {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-figure {
-	margin-bottom: 0;
-}
-
-html p a:hover {
-	text-decoration: none;
-}
 
 /*
 *
@@ -12488,7 +12446,7 @@ html:not(.lt-ie10) .not-animated {
 
 .ui-to-top:hover {
 	color: #121212;
-	background: #111111;
+	background: #9b9b9b;
 	text-decoration: none;
 }
 
